@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+uv.lock.bak
+
+# 采集输出 (不要提交数据)
+data/
+*.jsonl
+*.csv
+
+# 逆向过程留下的素材/临时文件
+js/
+room_page.html
+douyin_live/
+_feed.py
+_rooms.py
+_t_*.py
+_*.log
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

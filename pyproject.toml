@@ -1,0 +1,15 @@
+[project]
+name = "douyin-live"
+version = "0.2.0"
+description = "抖音直播弹幕/礼物采集（纯协议：房间信息 + im/fetch 长轮询 + protobuf 解包）"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    # HTTP 客户端
+    "requests>=2.31",
+    # 必须：服务端对 /webcast/* 常返回 Content-Encoding: br，缺它连房间信息都解不出来
+    "brotli>=1.1",
+]
+
+[tool.uv]
+package = false
