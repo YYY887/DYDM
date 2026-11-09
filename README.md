@@ -10,19 +10,20 @@
 
 ## 截图
 
-把截图丢进 `static/` 目录即可，下面按名字引用：
+截图放在 `static/` 目录（命名建议见 `static/README.md`）。放好后把下面注释里的图片行取消注释即可显示：
+
+```markdown
+<!-- ![终端实时输出](static/terminal.png) -->
+<!-- ![礼物消息](static/gift.png) -->
+<!-- ![协议自检](static/protocol.png) -->
+```
 
 | 文件 | 内容 |
 | --- | --- |
-| `static/terminal.png` | 终端实时输出（彩色、弹幕+礼物+进场） |
+| `static/terminal.png` | 终端实时输出（彩色：弹幕/礼物/进场/点赞） |
 | `static/gift.png` | 礼物消息样例 |
-| `static/protocol.png` | 抓包 / protobuf 字段对照 |
-
-```markdown
-![终端输出](static/terminal.png)
-```
-
-> 放好截图后，把上面的 `![...]` 行贴到本节即可显示。
+| `static/protocol.png` | 协议分层输出 / protobuf 字段对照 |
+| `static/csv.png` | JSONL / CSV 落盘结果 |
 
 ## 目录结构
 
