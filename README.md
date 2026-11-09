@@ -195,3 +195,9 @@ uv run gift_probe.py <web_rid> --rounds 60
 - 终端输出被 `| head`、`| Select-Object -First N`、`> $null` 提前关闭时不会中断采集，只停止上屏，文件照常写
 - 长跑建议加 `--jsonl`；中断后游标不续传，重启会重新拉当前可见的历史消息
 - 仅用于协议学习与自有直播间数据统计；需要登录可见的内容（付费直播等）不在游客态覆盖范围内
+
+## 致谢
+
+感谢 [Linux.do 社区](https://linux.do) 的交流与支持。
+
+[![Linux.do](https://img.shields.io/badge/社区-Linux.do-1f6feb?style=flat-square&logo=discourse&logoColor=white)](https://linux.do)
