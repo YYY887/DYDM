@@ -10,20 +10,22 @@
 
 ## 截图
 
-截图放在 `static/` 目录（命名建议见 `static/README.md`）。放好后把下面注释里的图片行取消注释即可显示：
+### 终端实时输出
 
-```markdown
-<!-- ![终端实时输出](static/terminal.png) -->
-<!-- ![礼物消息](static/gift.png) -->
-<!-- ![协议自检](static/protocol.png) -->
-```
+`uv run main.py <web_rid>` 的实时画面：弹幕（青）、礼物（金）、进场（灰）、点赞（紫）按类别着色，
+行首是时间戳，进场行还带回当前在线人数。
 
-| 文件 | 内容 |
-| --- | --- |
-| `static/terminal.png` | 终端实时输出（彩色：弹幕/礼物/进场/点赞） |
-| `static/gift.png` | 礼物消息样例 |
-| `static/protocol.png` | 协议分层输出 / protobuf 字段对照 |
-| `static/csv.png` | JSONL / CSV 落盘结果 |
+![终端实时输出](static/terminal.png)
+
+---
+
+还想补的截图放在 `static/`，命名建议见 [static/README.md](static/README.md)：
+
+| 文件名 | 内容 | 放好后在下面加一行即可 |
+| --- | --- | --- |
+| `static/gift.png` | 礼物消息 / `gift_probe.py` 字段对照 | `![礼物消息](static/gift.png)` |
+| `static/protocol.png` | `selfcheck.py` 分层输出 / 抓包 | `![协议自检](static/protocol.png)` |
+| `static/csv.png` | JSONL / CSV 落盘结果 | `![落盘结果](static/csv.png)` |
 
 ## 目录结构
 
